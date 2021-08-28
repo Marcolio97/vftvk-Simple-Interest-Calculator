@@ -1,12 +1,23 @@
+<!doctype html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    </body>
+    <div class="maindiv">
+        <title>Simple Interest Calculator</title>
 
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="range"  id="0.25" min="1" max="20" value="10.25"> <br/>
+        Rate <input type="range"  id="rate" min="1" max="20" value="10.25%">  
         <span id="rate_val">
-            </span>
+        10.25%
+        </span>
         No. of Years <input type="number"  id="years">  <br/>
      <select id="years">
-    <option value="1"></option>
-</select>
+    <option value="1">1</option>
+    </select>
         Interest : <span id="result"></span><br>
 
         <button onclick="compute()">Compute Interest</button>
@@ -16,3 +27,8 @@
 <footer>
 
         &#169; This Calculator belongs to --Marco L--
+
+
+</footer>
+    </div>
+</html>
