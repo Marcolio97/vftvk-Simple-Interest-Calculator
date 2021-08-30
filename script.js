@@ -26,7 +26,7 @@ function validation()
     console.log("yo")
     if (principal == NaN || principal <=0){
         console.log("hi")
-        window.alert("Please enter a positive value!");
+        alert("Please enter a positive value!");
         document.getElementById("principal").focus();
     }
     else {
