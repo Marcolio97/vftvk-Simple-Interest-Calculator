@@ -1,6 +1,5 @@
 function compute()
 {
-    console.log("hi")
     var principal = Number(document.getElementById("principal").value);
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
@@ -24,11 +23,14 @@ function updateRate()
 function validation()
 {
     var principal = document.getElementById("principal").value;
+    console.log("yo")
     if (principal == NaN || principal <=0){
+        console.log("hi")
         alert("Please enter a positive value!");
         document.getElementById("principal").focus();
     }
     else {
+        console.log("hello")
         compute();
     }
 }
