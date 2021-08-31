@@ -23,7 +23,7 @@ function updateRate()
 function validation()
 {
     var principal = document.getElementById("principal").value;
-    if (principal == NaN || principal <=0){
+    if (principal == NaN || principal <=0);{
         alert("Please enter a positive value!");
         document.getElementById("principal").focus();
     }
